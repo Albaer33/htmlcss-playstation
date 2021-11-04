@@ -6,6 +6,8 @@ img {
     width: 100%;
 }
 ul {
+    padding: 0;
+    margin: 0;
     list-style-type: none;
 }
 .fa-angle-down {
@@ -37,11 +39,15 @@ header {
     line-height: 80px;
 }
 .logo-play {
+    display: inline-block;
     line-height: 80px;
     width: 60px;
 }
 header li {
     display: inline-block;
+}
+.menu-left {
+    line-height: 80px;
 }
 .menu-right {
     text-align: right;
