@@ -58,7 +58,7 @@ header li {
     text-align: right;
     line-height: 80px;
 }
-.btn-dark {
+header .btn-dark {
     background-color: #363636;
     border-radius: 20px;    
 }
@@ -71,4 +71,21 @@ header li {
     }
 }
 /* MAIN */
+main {
+    padding-top: 120px;
+}
+.jumbotron {
+    width: 100%;
+    padding-top: 350px;
+    padding-bottom: 100px;
+    color: white;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn-primary {
+    background-color: #cd3d0f;
+    border: none;
+    border-radius: 20px;
+}
 /* FOOTER */
