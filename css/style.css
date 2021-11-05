@@ -14,7 +14,7 @@ ul {
     color: #a4a4a4;
 }
 section {
-    padding-bottom: 100px;
+    padding: 50px 0;
 }
 .btn_orange {
     color: white;
@@ -174,5 +174,29 @@ main {
 .latest-release h5 {
     font-size: 18px;
     font-weight: bold;
+}
+.ps4-intro {
+    padding: 20px 0;
+    text-align: center;
+}
+.playstation4 h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+.playstation4 p {
+    color: grey;
+    font-size: 20px;
+}
+/* ps plus part */
+.bg_grey {
+    background-color: #bebcbb;
+}
+.btn_plus {
+    background-color: #d9dadc;
+    color: #2474b6;
+    font-weight: bold;
+}
+.psplus {
+    padding: 0;
 }
 /* FOOTER */
