@@ -152,8 +152,27 @@ main {
     bottom: 0;
     background: rgba(255,255,255,0.3);
 }
+.hardware-card {
+    text-align: center;
+}
 /* second jumbotron */
 .second-jumbo {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+/* latest release part */
+.bg_black {
+    color: white;
+    background-color: #1f1f1f;
+}
+.latest-release {
+    padding-top: 50px;
+}
+.latest-release h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.latest-release h5 {
+    font-size: 18px;
+    font-weight: bold;
 }
 /* FOOTER */
