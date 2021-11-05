@@ -2,6 +2,9 @@
 body {
     font-family: Arial, sans-serif;
 }
+section {
+    margin-bottom: 70px;
+}
 img {
     width: 100%;
 }
@@ -76,7 +79,7 @@ main {
 }
 .jumbotron {
     width: 100%;
-    padding-top: 350px;
+    padding-top: 250px;
     padding-bottom: 100px;
     color: white;
     background-image: url(../img/jumbo-bg.png);
@@ -86,6 +89,15 @@ main {
 .btn-primary {
     background-color: #cd3d0f;
     border: none;
+    border-radius: 20px;
+}
+.single-game {
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 2px;
+}
+.selected {
+    border: 3px solid #2888d6;
     border-radius: 20px;
 }
 /* FOOTER */
