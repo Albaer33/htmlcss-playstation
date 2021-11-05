@@ -36,6 +36,14 @@ section {
     font-weight: bold;
     font-size: 32px;
 }
+main h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+main p {
+    color: grey;
+    font-size: 20px;
+}
 /* HEADER */
 header {
     font-family: Helvetica, sans-serif;
@@ -114,6 +122,9 @@ main {
 .game-select {
     padding-top: 20px;
 }
+.jumbotron p {
+    color: white;
+}
 /* hardware part */
 .h_container {
     padding-bottom: 80px;
@@ -179,14 +190,6 @@ main {
     padding: 20px 0;
     text-align: center;
 }
-.playstation4 h2 {
-    font-weight: bold;
-    font-size: 32px;
-}
-.playstation4 p {
-    color: grey;
-    font-size: 20px;
-}
 /* ps plus part */
 .bg_grey {
     background-color: #bebcbb;
@@ -198,5 +201,10 @@ main {
 }
 .psplus {
     padding: 0;
+}
+@media screen and (max-width: 767px) {
+    .psplus {
+        padding: 50px 0;
+    }
 }
 /* FOOTER */
