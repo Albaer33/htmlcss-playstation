@@ -44,6 +44,9 @@ main p {
     color: grey;
     font-size: 20px;
 }
+.text_center {
+    text-align: center;
+}
 /* HEADER */
 header {
     font-family: Helvetica, sans-serif;
@@ -216,4 +219,10 @@ main {
     color: white;
 }
 /* social media part */
+.social-media h2 {
+    padding-bottom: 50px;
+}
+.max_width {
+    max-width: 600px;
+}
 /* FOOTER */
