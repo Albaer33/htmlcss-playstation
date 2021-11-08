@@ -222,7 +222,25 @@ main {
 .social-media h2 {
     padding-bottom: 50px;
 }
-.max_width {
-    max-width: 600px;
-}
 /* FOOTER */
+footer {
+    padding: 50px 0;
+    color: white;
+    background-color: #00439c;
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+.logo-footer {
+    width: 100px;
+}
+.logo-sie {
+    width: 200px;
+}
+#underline {
+    text-decoration: underline;
+}
+.padding_30 {
+    padding: 30px 0; 
+}
